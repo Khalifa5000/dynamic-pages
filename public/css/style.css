@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(224, 220, 220);
+}
+h2{
+  
+    text-align: center;
+    background-color: rgb(107, 107, 122);
+    color: #fff;
+    font-size: 40px;
+ 
+}
+button{
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: rgb(64, 27, 226);
+    cursor: pointer;
+    transition: 1s;
+}
+.container a{
+    width: 300px;
+    margin: 30px auto;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid gray;
+    border-radius: 8px;
+    display: block;
+    transition: 1s;
+}
+a{
+    text-decoration: none;
+    transition: 1.5s;
+}
+button:hover{
+    transform: scale(1.5);
+}
+.container a:hover{
+    transform: scale(1.5);
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+.photo{
+  border-radius: 50%;
+}
+.div1{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container{
+width: 80%;
+margin: auto;
+text-align: center;
+}
+
+.header2{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    position: fixed;
+    opacity: .8;
+    background-color: gray;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.header2 a{
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 25px;
+}
+.title{
+    width: 100%;
+    margin-top:70px;
+}
+
+.footer{
+   width: 100%;
+   height: 5px;
+    background-color:#201f1f;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+  }
+  .footer a{
+    display: inline-block;
+    margin: 5px;
+  }
+   .footer a:hover{
+   transform: scale(2);
+  }
